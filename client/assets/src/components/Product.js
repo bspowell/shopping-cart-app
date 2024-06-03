@@ -1,5 +1,4 @@
 import React from 'react';
-import { mockProducts } from "../../mockData/data"
 
 const Product = ({ product }) => {
     return (

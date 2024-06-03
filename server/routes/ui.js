@@ -4,7 +4,7 @@ const path = require("path");
 
 router.get("/", (req, res, next) => {
   console.log("in ui");
-  res.sendFile(path.join(__dirname, "../assets/ui/index.html"));
+  res.sendFile(path.join(__dirname, "../public/ui/index.html"));
 });
 
 router.get("/page_with_add_form", (req, res, next) => {

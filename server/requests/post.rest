@@ -1,0 +1,8 @@
+POST http://localhost:5001/api/products
+Content-Type: application/json
+
+{
+    "title": "Apple 10.5-Inch iPad Pro",
+    "quantity": 0,
+    "price": 649.99
+}

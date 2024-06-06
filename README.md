@@ -59,3 +59,34 @@ For the initial application data, you can start with the following list of produ
 ## DOCS
 
 You can find documentation in the `docs` folder in `api.md` file.
+
+
+# Sean's Notes
+
+What you can do:
+- Show Products
+- Add Products
+- Remove Products
+
+Cannot do:
+- Edit Product
+- Add to Cart
+
+Did not finish functionality:
+- EditForm 
+  - Create a handler function to update the object within the database
+  - Create an onChange handler function to edit fields
+  - Create a state for the EditForm fields
+  - Create reset callback for EditForm fields
+  - Add cancel button
+  - Q: Do we re-render only the component state and not the state within the app for editing child components?
+
+- AddToCart or CartItem Functionality 
+  - Create AddToCart onClick function
+  - Create AddtoCart state for cart changes
+  - Remove quantity from product
+
+- Change numbers to strings for form data
+- Validate form data when returning form data to server
+- Zod functionality - creating schemas for data coming from the database
+- Create servcies folder for all interaction with database

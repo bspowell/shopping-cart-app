@@ -1,4 +1,6 @@
-export const mockProducts = [
+import { Product } from "../../types/index";
+
+export const mockProducts: Product[] = [
   {
     _id: "1",
     title: "Amazon Kindle E-reader",

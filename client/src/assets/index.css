@@ -95,7 +95,7 @@ li {
 
 button {
   padding: 5px 12px 5px;
-  background: #07575b;
+  background: #07575b !important;
   color: #fff;
   border-color: transparent;
   border-radius: 4px;

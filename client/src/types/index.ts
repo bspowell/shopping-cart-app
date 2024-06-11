@@ -10,7 +10,7 @@ export interface ProductType {
 }
 
 
-export interface Products {
+export interface ProductsType {
   products: ProductType[]
 }
 
